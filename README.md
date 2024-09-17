@@ -1,14 +1,14 @@
-Term Deposit Subscription Prediction
+TERM DEPOSIT SUBSCRIPTION PREDICTION
 
-Project Overview
+PROJECT OVERVIEW
 
-Problem Statement
+PROBLEM STATEMENT
 
 Our project is centered on predicting whether a customer will subscribe to a term deposit based on data from a European bank's direct marketing campaigns. 
 
 The aim is to optimize these marketing strategies by identifying key customer segments and predicting outcomes with high accuracy, thereby enhancing the success rates of these campaigns.
 
-Data Description
+DATA DESCRIPTION
 
 The dataset originates from a European banking institution and includes details from direct marketing efforts (phone calls). The features encompass customer demographics and campaign interactions:
 
@@ -22,9 +22,9 @@ Campaign: Interaction frequency during the campaign.
 
 The target variable, y, indicates whether the customer subscribed to the term deposit.
 
-Analytical Approach and Methodology
+ANALYTICAL APPROACH AND METHODOLOGY
 
-Data Preprocessing
+DATA PREPROCESSING
 
 Encoding: Categorical variables (job, marital status, education, contact type) were transformed using one-hot encoding. Numeric values for month were mapped from names to numbers.
 
@@ -32,7 +32,7 @@ Scaling: Feature values were standardized to ensure uniformity for model input.
 
 Sampling: Techniques like SMOTE for oversampling and Random UnderSampling (RUS) addressed class imbalance.
 
-Modeling and Evaluation
+MODELING AND EVALUATION
 
 Multiple classification algorithms were evaluated:
 
@@ -50,7 +50,7 @@ Stacking Classifier: Layered approach to utilize the strengths of individual mod
 
 Models were assessed based on precision, recall, F1-score, and overall accuracy.
 
-Key Results
+KEY RESULTS
 
 Highest Accuracy Achieved: 96% with an ensemble approach.
 
@@ -58,7 +58,7 @@ Precision and Recall: Notable improvements in predicting actual subscribers, wit
 
 Feature Importance: Duration of calls, customer's balance, and the day of contact were identified as the most influential factors.
 
-Insights and Business Recommendations
+INSIGHTS AND BUSINESS RECOMMENDATIONS
 
 Targeting Strategy: Focus on customers identified by the models as having a higher probability of subscription, particularly those with longer call durations and higher balances.
 
@@ -66,12 +66,12 @@ Optimal Contact Times: Insights from data suggest specific months and days where
 
 Resource Allocation: By predicting non-subscribers, the bank can save on resources and time, directing efforts towards more promising leads.
 
-Conclusions
+CONCLUSIONS
 
 This project successfully demonstrates the use of machine learning to enhance decision-making in marketing strategies for banking products. 
 The models developed not only achieve high accuracy but also provide actionable insights for customer segmentation and campaign optimization.
 
-Future Work
+FUTURE WORK
 
 Expand Feature Set: Incorporate more nuanced customer behavioral data.
 
